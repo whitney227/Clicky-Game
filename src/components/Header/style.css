@@ -1,0 +1,13 @@
+/* eslint-disable-next-line */
+.jumbotron-fluid{
+    background-image: url("pineapple.png"); 
+    background-size: cover; 
+    height: 100%;
+    width: 100%;   
+}
+.container-fluid{
+    padding: 30px; 
+    text-align: center;
+    color: white;
+    font-family: 'Galindo', cursive;
+}

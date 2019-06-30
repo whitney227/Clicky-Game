@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-//import './App.css';
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import ImgCard from "./components/ImgCard";
@@ -16,7 +15,10 @@ class App extends Component {
   // Map over this.state.images and render an ImgCard component for each image object
   render() {
     return (
-      <NavBar />
+      <div>
+        <NavBar />
+        <Header />
+      </div>
     );
   }
 }
