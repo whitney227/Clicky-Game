@@ -1,0 +1,22 @@
+.navbar{
+    background: blue;
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Galindo', cursive;
+}
+.navItems{
+    display: inline;
+    padding: 25px 0;
+    text-align: center;
+    list-style-type: none;
+}
+li{
+    float:left;
+    padding: 0 60px;
+    margin: auto;
+}
+
+
