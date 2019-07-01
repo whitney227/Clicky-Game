@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import ImgCard from "./components/ImgCard";
-import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import images from "../src/images.json";
 
