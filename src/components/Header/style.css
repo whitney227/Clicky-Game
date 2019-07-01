@@ -2,11 +2,12 @@
 .jumbotron-fluid{
     background-image: url("pineapple2.png"); 
     background-size: cover; 
-    padding-top: 150px;
+    /* padding-top: 150px; */
     height: 100%;
     width: 100%; 
     font-family: 'Galindo', cursive;  
     font-weight: bold;
+    margin-bottom: 0
 }
 .container-fluid{
     padding: 30px; 
