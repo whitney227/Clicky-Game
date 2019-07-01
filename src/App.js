@@ -11,6 +11,11 @@ class App extends Component {
     images
   };
 
+  // create a function to shuffle the images
+  imageShuffle = id => {
+    console.log(id)
+  }
+
   // Map over this.state.images and render an ImgCard component for each image object
   render() {
     return (
@@ -20,6 +25,7 @@ class App extends Component {
         <Wrapper>
           {this.state.images.map(image => (
             <ImgCard
+              imageShuffle={this.imageShuffle}
               id={image.id}
               key={image.id}
               image={image.image}
