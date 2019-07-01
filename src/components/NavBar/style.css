@@ -1,5 +1,5 @@
 .navbar{
-    background: blue;
+    background: #0099cc;
     min-height: 70px;
     position: fixed;
     width: 100%;
@@ -12,11 +12,14 @@
     padding: 25px 0;
     text-align: center;
     list-style-type: none;
+
 }
-li{
+ li{
     float:left;
     padding: 0 60px;
     margin: auto;
-}
+} 
+
+
 
 

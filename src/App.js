@@ -10,7 +10,7 @@ class App extends Component {
   // set this.state.images to the images json array
   state ={
     images
-  }
+  };
 
   // Map over this.state.images and render an ImgCard component for each image object
   render() {

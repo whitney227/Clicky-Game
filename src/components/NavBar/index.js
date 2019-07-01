@@ -3,13 +3,11 @@ import "./style.css";
 
 function NavBar(){
     return (
-        <nav className="navbar">
+        <nav className="navbar navbar-default navbar-static-top">
             <ul className="navItems">
                 <li>Clicky Game</li>
-                <li>Click and image to begin!</li>
-                <li id="score">Score: </li>
-                <li id="topScore">Top Score: </li>
-            </ul>
+                
+            </ul> 
         </nav>
     );
 }
