@@ -2,7 +2,7 @@
 .jumbotron-fluid{
     background-image: url("pineapple2.png"); 
     background-size: cover; 
-    padding-top: 250px;
+    padding-top: 150px;
     height: 100%;
     width: 100%; 
     font-family: 'Galindo', cursive;  
@@ -11,7 +11,7 @@
 .container-fluid{
     padding: 30px; 
     text-align: center;
-    color: #007600;
+    color:black;
     font-family: 'Galindo', cursive;
 }
 h1{

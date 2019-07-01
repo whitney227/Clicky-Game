@@ -18,6 +18,15 @@ class App extends Component {
       <div>
         <NavBar />
         <Header />
+        <Wrapper>
+          {this.state.images.map(image => (
+            <ImgCard
+              id={image.id}
+              key={image.id}
+              image={image.image}
+            />
+          ))}
+        </Wrapper>
       </div>
     );
   }
