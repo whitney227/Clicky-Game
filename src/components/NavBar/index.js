@@ -4,9 +4,10 @@ import "./style.css";
 function NavBar(){
     return (
         <nav className="navbar navbar-default navbar-static-top" role="navigation">
-            <div className="container">
-                <li>Clicky Game</li>   
-            </div> 
+            <ul className="container">
+                <li className="score">Your Score:</li>   
+                <li className="topScore">Top Score:</li>
+            </ul> 
         </nav>
     );
 }

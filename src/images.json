@@ -33,7 +33,7 @@
     "id": 6,
     "key": 6,
     "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "clicked":false,
+    "clicked":false
   },
   {
     "id": 7,
@@ -51,7 +51,7 @@
     "id": 9,
     "key": 9,
     "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "clicked":false,
+    "clicked":false
   },
   {
     "id": 10,
