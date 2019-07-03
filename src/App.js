@@ -13,14 +13,17 @@ class App extends Component {
     score: 0,
     topScore:""
   };
-  // create a method attached to the App clas
+  // create a methods attached to the App clas
   shuffleImages(){
     const modifiedArray = this.state.images.sort((id) => Math.random(id) - 0.5);
     this.setState({
       images: modifiedArray
     })
   }
-
+  handleScoreIncrement = () => {
+    this.setState({ score: this.state.score +1});
+  }
+  
   // Map over this.state.images and render an ImgCard component for each image object
   render() {
     return (
