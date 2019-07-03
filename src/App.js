@@ -10,10 +10,11 @@ class App extends Component {
   // set this.state.images to the images json array
   state ={
     images,
-    // score: 0
+    score: 0,
+    topScore:""
   };
   // create a method attached to the App clas
-  shuffleImages(id){
+  shuffleImages(){
     const modifiedArray = this.state.images.sort((id) => Math.random(id) - 0.5);
     this.setState({
       images: modifiedArray
@@ -24,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <NavBar score={this.state.score} topScore={this.state.topScore}/>
         <Header />
         <Wrapper>
           {this.state.images.map(image => (
