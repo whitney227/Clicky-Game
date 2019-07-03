@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import ImgCard from "./components/ImgCard";
 import Wrapper from "./components/Wrapper";
 import images from "../src/images.json";
+import {Button} from 'reactstrap';
 import './App.css';
 
 
@@ -65,7 +66,8 @@ class App extends Component {
       <div>
         <div className="App">
             <h3 className="message">Your Score: {this.state.score}</h3>   
-            <h3 className="message">Top Score: {this.state.topScore}</h3>  
+            <h3 className="message">Top Score: {this.state.topScore}</h3> 
+            <Button color="secondary" onClick={this.handleButtonClick}>Start Over</Button>
         </div>
         <Header />
         <Wrapper>
