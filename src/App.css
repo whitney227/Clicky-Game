@@ -1,7 +1,18 @@
 .App {
   text-align: center;
   font-family: 'Galindo', cursive;
+  background: #0099cc;
+  width: 100%;
+  color: white;
+ 
 }
+.message{
+  font-family: 'Galindo', cursive;
+  margin: 0;
+  padding: 20px
+}
+
+ 
 
 
 

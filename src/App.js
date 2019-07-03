@@ -1,9 +1,10 @@
+
 import React, {Component} from 'react';
-import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import ImgCard from "./components/ImgCard";
 import Wrapper from "./components/Wrapper";
 import images from "../src/images.json";
+import './App.css';
 
 
 class App extends Component {
@@ -62,20 +63,21 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar score={this.state.score} topScore={this.state.topScore}/>
+        <div className="App">
+            <h3 className="message">Your Score: {this.state.score}</h3>   
+            <h3 className="message">Top Score: {this.state.topScore}</h3>  
+        </div>
         <Header />
         <Wrapper>
           {this.state.images.map(image => (
             <ImgCard
-              id={image.id}
-              charName={image.charName}
-              image={image.image}
-              score = {this.state.score}
-              selectImage = {this.selectImage}
-              // clicked={image.clicked}
-              // shuffleImages={(id) => this.shuffleImages(id)}
+            id={image.id}
+            charName={image.charName}
+            image={image.image}
+            score = {this.state.score}
+            selectImage = {this.selectImage}
             />
-          ))}
+            ))}
         </Wrapper>
       </div>
     );
