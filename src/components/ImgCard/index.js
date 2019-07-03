@@ -1,13 +1,15 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./style.css";
 
 const ImgCard = props => ( 
     <div className="card">
         <div className="img-container">
-            <img className="click-item" alt={props.id} src={props.image} />
+            <a onClick={() => props.selectImage(props.charName)}
+            className={props.score === 0 ? "imgStyle imgStylePrevious" : "imgStyle"}>
+            <img className="cusImg" alt={props.charName} src={props.image} />
+            </a> 
         </div>
-        <button type="button" className="btn btn-link btn-md" 
-        onClick={() => props.shuffleImages(props.id)}>Click</button> 
     </div>
     
 );
