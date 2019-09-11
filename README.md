@@ -5,7 +5,7 @@ If the user clicks an image that has not been previously selected, then the scor
 
 ### Live Demo
 
-https://git.heroku.com/serene-crag-55769.git
+https://clicky-game-55769.herokuapp.com/
 
 
 
